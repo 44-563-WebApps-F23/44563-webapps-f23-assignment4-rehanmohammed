@@ -1,0 +1,64 @@
+.speech{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: orange;
+
+}
+.name:hover{
+    color: yellowgreen;
+    text-shadow: 5px 4px 3px burlywood;
+    border:  2px solid rgb(10, 104, 76);
+    padding: 2px;
+}  
+    
+.firstCitizen.name:hover{
+    color: pink;
+}
+
+  
+
+
+.direction{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: black;
+    background-color: lightcyan;
+}
+.direction:hover{
+    color: brown;
+     background-color: antiquewhite;
+}
+.firstCitizen{
+    color: black;
+}
+.secondCitizen{
+    color: black;    
+}
+.thirdCitizen{
+    color: black;    
+}
+.fourthCitizen{
+    color: black;    
+}
+
+table{
+    margin: 2px;
+    border-spacing: 1.4em 0.8em;
+    border-collapse: collapse;
+    border:2px solid green;
+    text-align: left;
+    padding: 0.5em;
+    width:100%;
+
+}
+th{
+    background-color: lightgreen;
+
+}
+td{
+    width: 1.5em;
+    height: 2em;
+    text-align: left;
+    vertical-align: middle ;
+
+}

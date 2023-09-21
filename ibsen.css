@@ -28,7 +28,7 @@
     color: lightskyblue;    
 }
 .thirdCitizen{
-    color: lightgray;    
+    color: gray;    
 }
 .fourthCitizen{
     color: lightcoral;    
@@ -48,6 +48,10 @@ th{
     background-color: lightsalmon;
 
 }
+tr:nth-child(even){
+    background-color: whitesmoke;
+
+ }  
 td{
     width: 1.5em;
     height: 2em;

@@ -1,18 +1,18 @@
 .speech{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Gill Sans Extrabold", sans-serif;
     font-size: medium;
     color: black;
 
 }
 .name:hover{
     color: yellowgreen;
-    text-shadow: 5px 4px 3px burlywood;
+    text-shadow: 6px 5px 6cap burlywood;
     border:  2px solid rgb(10, 104, 76);    
     padding: 2px;
 }  
  
 .direction{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Times, "Times New Roman", Georgia, serif;
     font-size: small;
     color: black;
     background-color: lightcyan;
@@ -58,4 +58,29 @@ td{
     text-align: left;
     vertical-align: middle ;
 
+}
+nav {
+    display: inline;
+    color: pink;
+}
+
+ul.horizontal {
+    padding: 0px;
+    margin: 20px;
+}
+
+ul.horizontal li{
+    float: left;
+    color: lightsalmon;
+    background-color: lightslategray;
+}
+
+ul.horizontal a{
+    display: block;
+    padding: 10px;
+}
+
+ul.horizontal a:hover{
+    color: beige;
+    background-color: blueviolet;
 }
